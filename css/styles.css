@@ -29,13 +29,14 @@ body {
 */
 
 .weblogo {
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--light-mode-color)
+  color: var(--primary-brand-color);
 }
 
 .studiologoheader {
@@ -223,12 +224,23 @@ body {
   background-color: var(--light-mode-color);
 }
 
+.section-team {
+  background-color: var(--light-mode-color);
+}
+
 .catalog {
   background-color: var(--white-background-color);
 }
 
 .footer-bag {
   background-color: var(--dark-color);
+}
+
+.catalog-portfolio {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
 }
 
 /**
