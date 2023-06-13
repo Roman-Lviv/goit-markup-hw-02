@@ -274,10 +274,12 @@ body {
 }
 
 .btn-portfolio:hover {
-  background-color: var(--white-background-color);
+  background-color: var(--pressed-state-color);
+  color: var(--white-background-color);
 }
 .btn-portfolio:focus {
-  background-color: var(--white-background-color);
+  background-color: var(--pressed-state-color);
+  color: var(--white-background-color);
 }
 
 .adres-portfolio {
