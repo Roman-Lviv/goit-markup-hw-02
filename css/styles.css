@@ -245,18 +245,27 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+
+}
+
+.catalog-portfolio:hover {
+  color: var(--pressed-state-color);
+}
+
+.catalog-portfolio:focus {
+  color: var(--pressed-state-color);
 }
 
 .btn-portfolio {
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-align-items: center;
-text-align: center;
-cursor: pointer;
-letter-spacing: 0.04em;
-color: var(--white-background-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  background-color: --light-mode-color;
+  color: var(--white-background-color);
 }
 
 .btn-portfolio:hover {
@@ -266,9 +275,14 @@ color: var(--white-background-color);
   background-color: var(--pressed-state-color);
 }
 
-/**
-  |============================
-  | CSS Таблиця PORTFOLIO
-  |============================
-*/
+.adres-portfolio {
+  font-style: normal;
+}
 
+.adres-portfolio:hover {
+  color: var(--pressed-state-color);
+}
+
+.adres-portfolio:focus {
+  color: var(--pressed-state-color);
+}
