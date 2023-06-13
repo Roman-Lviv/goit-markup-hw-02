@@ -148,9 +148,10 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--dark-color);
+  color: var(--light-mode-color);
 }
 
 .title-text-on {
@@ -166,7 +167,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text-color);
   
@@ -215,6 +216,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-mode-color);
+}
+
+.section-what {
+  background-color: var(--light-mode-color);
+}
+
+.catalog {
+  background-color: var(--white-background-color);
 }
 
 /**
