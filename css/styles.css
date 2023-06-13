@@ -1,8 +1,16 @@
+html
+body {
+    margin: 0;
+    height: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
 /**
   |============================
   | CSS Таблиця STUDIO
   |============================
 */
+
 .hero-text {
   font-family: 'Roboto';
   font-style: normal;
