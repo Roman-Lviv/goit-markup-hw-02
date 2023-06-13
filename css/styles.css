@@ -44,6 +44,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
   color: var(--dark-color);
 }
@@ -189,8 +190,9 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
-  color: var(--dark-color);
+  color: var(--primary-brand-color);
  }
 
 .studiologoheader {
@@ -198,6 +200,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
   color: var(--dark-color);
  }
@@ -207,6 +210,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
   color: var(--light-mode-color);
 }
