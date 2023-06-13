@@ -1,8 +1,13 @@
-html
+:root {
+  color: #434455;
+  color: #ffffff;
+  color: #FFFFFF;
+}
 body {
     margin: 0;
-    height: 100;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color:#FFFFFF;
 }
 
 /**
@@ -11,12 +16,74 @@ body {
   |============================
 */
 
+.weblogo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #4D5AE5;
+}
+
+.studiologoheader {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #2E2F42;
+}
+
+.weblogofooter {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #4D5AE5;
+}
+
+.studiologofooter {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #F4F4FD;
+}
+
+.section-hero {
+  background: #2E2F42;
+}
+
+.btn-hero {
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4D5AE5;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.btn-hero:hover {
+  background-color: #404BBF;
+}
+
+.btn-hero:focus {
+  background-color: #404BBF;
+}
+
 .hero-text {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #FFFFFF;
 }
