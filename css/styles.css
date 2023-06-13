@@ -3,25 +3,48 @@
   | CSS Таблиця STUDIO
   |============================
 */
-.hero-page-text {
-position: absolute;
-width: 496px;
-height: 120px;
-left: 472px;
-top: 260px;
+.hero-text {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 56px;
 line-height: 60px;
-text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 
+.portfolio-menu {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+  
+}
+
+.contacts-menu {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.title-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
 .studio-menu {
-    width: 48px;
-    height: 24px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -29,4 +52,33 @@ color: #FFFFFF;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
+}
+.weblogo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.03em;
+color: #2E2F42;
+ }
+
+.studiologoheader {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.03em;
+color: #2E2F42;
+ }
+
+.studiologofooter {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.03em;
+color: #F4F4FD;
 }
