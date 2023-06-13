@@ -16,6 +16,7 @@ body {
 
 .link {
   text-decoration: none;
+  color: var(--pressed-state-color);
 }
 
 .list {
@@ -264,8 +265,8 @@ body {
   text-align: center;
   cursor: pointer;
   letter-spacing: 0.04em;
-  background-color: --light-mode-color;
-  color: var(--white-background-color);
+  background-color: var(--light-mode-color);
+  color: var(--primary-brand-color);
 }
 
 .btn-portfolio:hover {
