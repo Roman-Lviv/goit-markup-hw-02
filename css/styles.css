@@ -19,6 +19,10 @@ body {
   color: var(--pressed-state-color);
 }
 
+.link:hover {
+  color: var(--pressed-state-color);
+}
+
 .list {
   list-style: none;
 }
@@ -270,10 +274,10 @@ body {
 }
 
 .btn-portfolio:hover {
-  background-color: var(--pressed-state-color);
+  background-color: var(--white-background-color);
 }
 .btn-portfolio:focus {
-  background-color: var(--pressed-state-color);
+  background-color: var(--white-background-color);
 }
 
 .adres-portfolio {
