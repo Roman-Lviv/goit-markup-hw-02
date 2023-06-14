@@ -23,6 +23,10 @@ body {
   color: var(--pressed-state-color);
 }
 
+.link:focus {
+  color: var(--pressed-state-color);
+}
+
 .list {
   list-style: none;
 }
