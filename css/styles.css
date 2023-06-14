@@ -51,6 +51,10 @@ body {
   color: var(--body-text-color);
 }
 
+.adres-menu {
+  color: var(--body-text-color);
+}
+
 .studiologoheader {
   font-style: normal;
   font-weight: 800;
